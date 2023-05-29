@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+    /* What are VW Units? The full form of VW is viewport width. It works 
+    like the percentage unit. Specifying 10vw is equivalent to occupying 10% of entire visible screen width. */
+}
+
+p {
+    /* font-size: 30px; */ /* px ues for absolute size
+     its not change is i change browser font size */
+
+    /* font-size: 1rem; 👉 1rem = 16px */
+
+    /* font-size: 1em;  👉 1em =16px */
+
+    /* Which is better em or rem or px?
+     Here are a few general guidelines: Use px for small,
+    fixed-size elements like borders or shadows. Use em for typography and other scalable
+     elements that need to change size relative to their parent element.
+     Use rem for scalable typography and responsive layouts that need to change size relative to the root element. */
+
+    size: 10%;
+}

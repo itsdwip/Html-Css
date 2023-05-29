@@ -1,0 +1,27 @@
+body {
+    margin: unset;
+    background-color: papayawhip;
+}
+
+h1,
+h2 {
+    font-size: 30px;
+    color: #7b7baa80;
+}
+
+#Article1 {
+    color: hsl(61, 63%, 15%);
+    font-style: italic;
+}
+
+.Article2 {
+    color: rgb(84, 100, 100);
+}
+
+.Article3 {
+    color: rgb(245, 2, 2);
+}
+
+p span {
+    background-color: blueviolet;
+}

@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    /* background-color: rgb(23, 117, 199); */
+    height: 90vh;
+    margin: unset;
+    padding: unset;
+}
+
+/* 
+*{
+    margin:unset;
+    padding: unset;
+    box-sizing: content-box;
+} */
+
+h1,
+p {
+    color: rgb(red, green, blue);
+    margin: 1.5em /*👈top margin*/ 2em /* 👈for left and right */ 2em /*👈for bottom*/;
+    border: 2px solid red;
+    outline: 5px solid rgb(9, 77, 122);
+    outline-offset: 5px;
+    width: 50%;
+    font-size: 2rem;
+    padding: 1em 3em 4em 5em;
+    border-radius: 50px;
+}
+
+/* .main-div{
+    
+    border-left:5px solid red;
+    border-right: 4px dotted blue;
+    margin: 100px;
+
+
+}
+ */
+
+h2 {
+    padding: unset;
+    border-top: 2px solid;
+    border-left: 5px solid red;
+    border-right: 4px dotted blue;
+    border-bottom: 10px solid;
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+     margin: 30px;
+    padding: 5% 10% ;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+ol {
+    /* list-style-type: upper-roman; */
+    list-style-image: url(c.png);
+    line-height: 1.7;
+  
+}
+
+ul {
+    /* list-style-type: square; */
+
+    list-style-image: url(c.png);
+    margin: unset;
+ 
+}
+
+ol ::marker{
+    margin: 20px;
+    color: chocolate;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "only $5 >>";
+}
