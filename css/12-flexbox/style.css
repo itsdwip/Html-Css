@@ -33,7 +33,7 @@ body{
 .box{
      min-width: 100px;
      height: 100px;
-     background-color: black;
+     background-color: rgb(31, 25, 25);
      color: white;
      font-size: 2rem;
      padding: 0.5rem;
